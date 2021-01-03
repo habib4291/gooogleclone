@@ -1,11 +1,12 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +37,108 @@
     transform: rotate(360deg);
   }
 }
+.main_page{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 200px;
+}
+.div2{
+  margin-top: 45px;
+}
+input{
+ width: 520px;
+ height: 35px;
+ border-radius: 15px;
+ border-style: none;
+ outline: none;
+ border-color: white;
+ box-shadow: 1px 1px 1px 1px grey;
+ font-size: 20px;
+}
+input[type=text] {
+  padding:0 35px;}
+
+input:hover{
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.div3{
+  margin-top: 40px;
+}
+.gsearch{
+  padding: 8px;
+  background-color: silver;
+}
+.home_form{
+  position: relative;
+  
+}
+.search{
+  position: absolute;
+  top:8px;
+  left:10px;
+  color:#9aa0a6;
+  
+}
+
+/*Search Componen*/
+
+.search_form{
+ display: flex;
+ margin-top: 25px;
+ margin-left: 10px;
+ border-bottom: 1px solid grey;
+ padding-bottom: 35px;
+  
+}
+.inputform{
+  margin-left: 45px;
+  margin-top: 12px;
+  position: relative;
+  
+}
+inp2{
+  width: 550px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+  outline: none;
+  border-color: white;
+  box-shadow: 1px 1px silver;
+  font-size: 20px;
+ }
+ .searchicon2{
+   position: absolute;
+   left: 250px;
+   top:45px
+ }
+ .info{
+
+   margin-top: 10px;
+   text-align: left;
+   margin-left: 120px;
+   font-size: 15px;
+   color: silver;
+ }
+
+ /*    CARD SHOW  */
+ .card{
+   text-align: left;
+   margin-left: 120px;
+   margin-top: 20px;
+   margin-right: 50%;
+ }
+ .card_title{
+   margin:4px 0;
+   font-size: 20px;
+   text-decoration: none;
+ }
+ .card_link a{
+   color:silver;
+   text-decoration: none;
+ }
+ .card_title a{
+  text-decoration: none;
+ }
+
